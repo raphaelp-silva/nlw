@@ -87,6 +87,7 @@ section ul {
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 24px;
+    justify-content: center;
 }
 section ul li{
 transition: transform .3s;
@@ -121,6 +122,7 @@ section ul li:hover{
  }
 
  main section{
+    text-align: center;
     animation: fromBottom .7s backwards;
  }
  main section:nth-child(1){
@@ -161,4 +163,12 @@ section ul li:hover{
         opacity: 1;
         transform: translateX(0)
     }
+}
+footer {
+    background: -webkit-linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    margin: 0.8rem 0 2.4rem;
+   
 }
