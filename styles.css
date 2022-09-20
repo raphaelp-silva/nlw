@@ -55,7 +55,7 @@ main {
 
     display: grid;
     gap: 24px;
-
+    justify-content: center;
 
 
 }
