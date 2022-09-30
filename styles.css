@@ -165,10 +165,12 @@ section ul li:hover{
     }
 }
 footer {
-    background: -webkit-linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(to bottom, rebeccapurple,steelblue,turquoise);        
+    color: black;
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
     text-align: center;
     margin: 0.8rem 0 2.4rem;
+    -webkit-text-fill-color: transparent;
    
 }
